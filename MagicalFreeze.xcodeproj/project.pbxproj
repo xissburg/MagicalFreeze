@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B36AAA217A03165003657B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B36AAA117A03165003657B4 /* UIKit.framework */; };
+		1B36AAA417A03165003657B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B36AAA317A03165003657B4 /* Foundation.framework */; };
+		1B36AAA617A03165003657B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B36AAA517A03165003657B4 /* CoreGraphics.framework */; };
+		1B36AAAC17A03165003657B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B36AAAA17A03165003657B4 /* InfoPlist.strings */; };
+		1B36AAAE17A03165003657B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36AAAD17A03165003657B4 /* main.m */; };
+		1B36AAB217A03165003657B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36AAB117A03165003657B4 /* AppDelegate.m */; };
+		1B36AAB417A03165003657B4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B36AAB317A03165003657B4 /* Default.png */; };
+		1B36AAB617A03165003657B4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B36AAB517A03165003657B4 /* Default@2x.png */; };
+		1B36AAB817A03165003657B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B36AAB717A03165003657B4 /* Default-568h@2x.png */; };
+		1B36AABB17A03165003657B4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B36AAB917A03165003657B4 /* MainStoryboard.storyboard */; };
+		1B36AABE17A03165003657B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36AABD17A03165003657B4 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B36AA9E17A03165003657B4 /* MagicalFreeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalFreeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B36AAA117A03165003657B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B36AAA317A03165003657B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B36AAA517A03165003657B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B36AAA917A03165003657B4 /* MagicalFreeze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicalFreeze-Info.plist"; sourceTree = "<group>"; };
+		1B36AAAB17A03165003657B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B36AAAD17A03165003657B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B36AAAF17A03165003657B4 /* MagicalFreeze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicalFreeze-Prefix.pch"; sourceTree = "<group>"; };
+		1B36AAB017A03165003657B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B36AAB117A03165003657B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B36AAB317A03165003657B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1B36AAB517A03165003657B4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1B36AAB717A03165003657B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1B36AABA17A03165003657B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1B36AABC17A03165003657B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B36AABD17A03165003657B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B36AA9B17A03165003657B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B36AAA217A03165003657B4 /* UIKit.framework in Frameworks */,
+				1B36AAA417A03165003657B4 /* Foundation.framework in Frameworks */,
+				1B36AAA617A03165003657B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B36AA9517A03165003657B4 = {
+			isa = PBXGroup;
+			children = (
+				1B36AAA717A03165003657B4 /* MagicalFreeze */,
+				1B36AAA017A03165003657B4 /* Frameworks */,
+				1B36AA9F17A03165003657B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B36AA9F17A03165003657B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B36AA9E17A03165003657B4 /* MagicalFreeze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B36AAA017A03165003657B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B36AAA117A03165003657B4 /* UIKit.framework */,
+				1B36AAA317A03165003657B4 /* Foundation.framework */,
+				1B36AAA517A03165003657B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B36AAA717A03165003657B4 /* MagicalFreeze */ = {
+			isa = PBXGroup;
+			children = (
+				1B36AAB017A03165003657B4 /* AppDelegate.h */,
+				1B36AAB117A03165003657B4 /* AppDelegate.m */,
+				1B36AAB917A03165003657B4 /* MainStoryboard.storyboard */,
+				1B36AABC17A03165003657B4 /* ViewController.h */,
+				1B36AABD17A03165003657B4 /* ViewController.m */,
+				1B36AAA817A03165003657B4 /* Supporting Files */,
+			);
+			path = MagicalFreeze;
+			sourceTree = "<group>";
+		};
+		1B36AAA817A03165003657B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B36AAA917A03165003657B4 /* MagicalFreeze-Info.plist */,
+				1B36AAAA17A03165003657B4 /* InfoPlist.strings */,
+				1B36AAAD17A03165003657B4 /* main.m */,
+				1B36AAAF17A03165003657B4 /* MagicalFreeze-Prefix.pch */,
+				1B36AAB317A03165003657B4 /* Default.png */,
+				1B36AAB517A03165003657B4 /* Default@2x.png */,
+				1B36AAB717A03165003657B4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B36AA9D17A03165003657B4 /* MagicalFreeze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B36AAC117A03165003657B4 /* Build configuration list for PBXNativeTarget "MagicalFreeze" */;
+			buildPhases = (
+				1B36AA9A17A03165003657B4 /* Sources */,
+				1B36AA9B17A03165003657B4 /* Frameworks */,
+				1B36AA9C17A03165003657B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalFreeze;
+			productName = MagicalFreeze;
+			productReference = 1B36AA9E17A03165003657B4 /* MagicalFreeze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B36AA9617A03165003657B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xissburg;
+			};
+			buildConfigurationList = 1B36AA9917A03165003657B4 /* Build configuration list for PBXProject "MagicalFreeze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B36AA9517A03165003657B4;
+			productRefGroup = 1B36AA9F17A03165003657B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B36AA9D17A03165003657B4 /* MagicalFreeze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B36AA9C17A03165003657B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B36AAAC17A03165003657B4 /* InfoPlist.strings in Resources */,
+				1B36AAB417A03165003657B4 /* Default.png in Resources */,
+				1B36AAB617A03165003657B4 /* Default@2x.png in Resources */,
+				1B36AAB817A03165003657B4 /* Default-568h@2x.png in Resources */,
+				1B36AABB17A03165003657B4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B36AA9A17A03165003657B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B36AAAE17A03165003657B4 /* main.m in Sources */,
+				1B36AAB217A03165003657B4 /* AppDelegate.m in Sources */,
+				1B36AABE17A03165003657B4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B36AAAA17A03165003657B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B36AAAB17A03165003657B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B36AAB917A03165003657B4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B36AABA17A03165003657B4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B36AABF17A03165003657B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B36AAC017A03165003657B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B36AAC217A03165003657B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicalFreeze/MagicalFreeze-Prefix.pch";
+				INFOPLIST_FILE = "MagicalFreeze/MagicalFreeze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B36AAC317A03165003657B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicalFreeze/MagicalFreeze-Prefix.pch";
+				INFOPLIST_FILE = "MagicalFreeze/MagicalFreeze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B36AA9917A03165003657B4 /* Build configuration list for PBXProject "MagicalFreeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B36AABF17A03165003657B4 /* Debug */,
+				1B36AAC017A03165003657B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B36AAC117A03165003657B4 /* Build configuration list for PBXNativeTarget "MagicalFreeze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B36AAC217A03165003657B4 /* Debug */,
+				1B36AAC317A03165003657B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B36AA9617A03165003657B4 /* Project object */;
+}
