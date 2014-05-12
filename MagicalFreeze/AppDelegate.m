@@ -12,7 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [MagicalRecord setupAutoMigratingCoreDataStack];
+    application.statusBarHidden = YES;
+    
+    [MagicalRecord setupCoreDataStackWithStoreNamed:@"MagicalFreeze.sqlite"];
 
     return YES;
 }

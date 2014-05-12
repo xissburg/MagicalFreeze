@@ -14,7 +14,7 @@
 @property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController;
 @property (nonatomic, assign) NSUInteger chunkSize; // size of the chunks that are loaded on the table view
 @property (nonatomic, assign) NSUInteger visibleChunk; // the index of the visible chunk of cells
-@property (nonatomic, copy) NSArray *stringsArray; // array of strings that in an actualy app should come from a server on demand
+@property (nonatomic, copy) NSArray *stringsArray; // array of strings that should come from a server on demand
 
 @end
 
@@ -32,8 +32,8 @@
         for (int i = 0; i < 407; ++i) {
             NSUInteger length = 5 + arc4random_uniform(24);
             NSMutableString *randomString = [[NSMutableString alloc] initWithCapacity:length];
-            for (int j = 0; j < length; ++j) {
-                int k = arc4random_uniform(characters.length);
+            for (NSInteger j = 0; j < length; ++j) {
+                NSUInteger k = arc4random_uniform(characters.length);
                 [randomString appendString:[characters substringWithRange:NSMakeRange(k, 1)]];
             }
             [stringsArray addObject:[randomString copy]];
@@ -46,7 +46,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.fetchedResultsController = [MFDummy fetchAllSortedBy:@"dummyId" ascending:YES withPredicate:nil groupBy:nil delegate:self];
+    self.fetchedResultsController = [MFDummy MR_fetchAllSortedBy:@"dummyId" ascending:YES withPredicate:nil groupBy:nil delegate:self];
     [self loadDummiesInChunk:0];
 }
 
@@ -57,10 +57,10 @@
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         [MagicalRecord saveWithBlock:^(NSManagedObjectContext *localContext) {
             // Insert/update the requested chunk of items
-            for (int i = chunk * self.chunkSize; i < chunk * self.chunkSize + self.chunkSize && i < self.stringsArray.count; ++i) {
-                MFDummy *dummy = [MFDummy findFirstByAttribute:@"dummyId" withValue:@(i) inContext:localContext];
+            for (NSInteger i = chunk * self.chunkSize; i < chunk * self.chunkSize + self.chunkSize && i < self.stringsArray.count; ++i) {
+                MFDummy *dummy = [MFDummy MR_findFirstByAttribute:@"dummyId" withValue:@(i) inContext:localContext];
                 if (dummy == nil) { // create if it doesn't exist
-                    dummy = [MFDummy createInContext:localContext];
+                    dummy = [MFDummy MR_createEntityInContext:localContext];
                     dummy.dummyId = @(i);
                 }
                 dummy.name = self.stringsArray[i];
